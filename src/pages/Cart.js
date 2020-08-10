@@ -17,6 +17,7 @@ function Cart() {
         setTimeout(() => {
             console.log("Order placed!")
             setButtonText("Place Order")
+			alert("Order successfully submitted");
             emptyCart()
         }, 3000)
     }
